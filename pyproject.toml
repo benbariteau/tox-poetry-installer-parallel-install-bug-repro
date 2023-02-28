@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tox-poetry-installer-parallel-install-bug-repro"
+version = "0.1.0"
+description = ""
+authors = ["Ben Bariteau <\"ben.bariteau@gmail.com\">"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tox_poetry_installer_parallel_install_bug_repro"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+greenlet = "1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
